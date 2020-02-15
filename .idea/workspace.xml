@@ -190,14 +190,30 @@
       <change beforePath="$PROJECT_DIR$/../../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/Monsters.json" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/Monsters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/dodge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/expboost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/fishing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/haste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/lifesteal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/mining.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/parry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/resist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/smithing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/attributes/woodcutting.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects.json" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/crayfish_fishspot.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/crayfish_fishspot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/oak_tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/oak_tree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/rocks_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/rocks_a.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/shrimp_fishspot.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/gameobjects/shrimp_fishspot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/items/iron_longsword.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/maps/town.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/maps/town.tmx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/AncestralBeast.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/AncestralBeast.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/Goblin-Archer.png" beforeDir="false" />
@@ -209,6 +225,10 @@
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/skeleton_archer.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/skeleton_archer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/skeleton_warrior.png" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/monsters/skeleton_warrior.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/shops.json" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/shops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/skills/axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/skills/mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/skills/staff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/skills/sword.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/assets/sounds/arrow_attack.wav" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/assets/sounds/arrow_attack.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/build/classes/java/main/com/kingdomlands/game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/build/classes/java/main/com/kingdomlands/game/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../realmlands_game/core/build/classes/java/main/com/kingdomlands/game/core/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../realmlands_game/core/build/classes/java/main/com/kingdomlands/game/core/Constants.class" afterDir="false" />
@@ -405,20 +425,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -428,7 +435,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -436,11 +443,12 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/core/database/MongoConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/utils/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/utils/ClientConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/connection/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/connection/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/models/payload/Login.java" />
       </list>
     </option>
   </component>
@@ -456,8 +464,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -498,16 +504,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoscape_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="evoscape_server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="evoscape_server" type="b2602c69:ProjectViewProjectNode" />
@@ -522,12 +519,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581401937912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581795899987" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -563,30 +562,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581400712520</updated>
-      <workItem from="1581400716591" duration="1222000" />
+      <workItem from="1581400716591" duration="1898000" />
+      <workItem from="1581459050099" duration="342000" />
+      <workItem from="1581791293362" duration="1752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1222000" />
+    <option name="totallyTimeSpent" value="3992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -594,37 +588,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="Gradle" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/database/MongoConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -633,16 +620,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,10 +670,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/models/ree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/models/payload/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
