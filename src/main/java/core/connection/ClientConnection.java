@@ -9,6 +9,7 @@ public class ClientConnection {
     private WebSocket webSocket;
     private PrivateKey privateKey;
     private SecretKey secretKey;
+    private String accountId;
 
     public ClientConnection(WebSocket webSocket) {
         this.webSocket = webSocket;
@@ -36,5 +37,13 @@ public class ClientConnection {
 
     public void setSecretKey(SecretKey secretKey) {
         this.secretKey = secretKey;
+    }
+
+    public String getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
     }
 }

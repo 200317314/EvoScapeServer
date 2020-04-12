@@ -9,7 +9,6 @@ public class MongoConnection {
 
     public static void init() {
         mongoClient = MongoClients.create("mongodb://7804364:5hfo4jsb!@realmlands.com/?authSource=admin");
-        mongoClient.getDatabase("evoscape");
     }
 
     public static MongoDatabase getDatabase() {

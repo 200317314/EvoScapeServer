@@ -1,5 +1,10 @@
 package core.connection;
 
+import core.utils.Utils;
+import org.java_websocket.WebSocket;
+
+import static core.connection.ConnectionManager.getSecretKey;
+
 public class Message {
     private String type, payload;
 
@@ -30,5 +35,9 @@ public class Message {
 
     public String getHandler() {
         return type.split(":")[1];
+    }
+
+    public void sendMessage(WebSocket webSocket) {
+        webSocket.send("{" + "encoded:" + Utils.getGson().toJson(Utils.encryptAES(Utils.getGson().toJson(this), getSecretKey(webSocket))) + "}");
     }
 }

@@ -1,6 +1,7 @@
 package core.connection;
 
 
+import core.managers.AccountManager;
 import core.utils.Utils;
 import org.java_websocket.WebSocket;
 import org.java_websocket.handshake.ClientHandshake;
@@ -45,21 +46,29 @@ public class Server extends WebSocketServer {
 
     @Override
     public void onMessage(WebSocket webSocket, String s) {
+        System.out.println("Message: " + s);
         Message message = null;
         EncodedMessage encodedMessage = Utils.getGson().fromJson(s, EncodedMessage.class);
 
         if (Objects.nonNull(encodedMessage)) {
             if (Objects.nonNull(ConnectionManager.getSecretKey(webSocket))) {
+                System.out.println("Decrypting AES");
                 message = Utils.getGson().fromJson(Utils.decryptAES(encodedMessage.getEncoded(), ConnectionManager.getSecretKey(webSocket)), Message.class);
             } else {
+                System.out.println("Decrypting RSA");
                 message = Utils.getGson().fromJson(Utils.decryptRSA(encodedMessage.getEncoded(), ConnectionManager.getPrivateKey(webSocket)), Message.class);
             }
         }
 
         if (Objects.nonNull(message)) {
-            System.out.println("Rec: " + message.getType());
+            System.out.println("Decrypted message: " + message.getModule() + "|" + message.getType() + " : " + message.getPayload());
             switch (message.getModule()) {
-
+                case "connection":
+                    ConnectionManager.handle(message, webSocket);
+                    break;
+                case "account":
+                    AccountManager.handle(message, webSocket);
+                    break;
             }
         }
     }
