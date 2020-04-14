@@ -1,6 +1,8 @@
 package core.models.account;
 
 import core.database.MongoConnection;
+import core.models.service.Service;
+import core.models.service.ServiceStatus;
 import core.utils.Utils;
 import org.bson.Document;
 
@@ -13,6 +15,8 @@ public class Account {
     private String id, name, email, phone, password, passwordre;
     private Address currentAddress;
     private List<Address> previousAddresses;
+    private List<Service> currentServices;
+    private List<Service> previousServices;
 
     public Account(double credit, String name, String email, String phone, String password, String passwordre, Address currentAddress, List<Address> previousAddresses) {
         this.credit = credit;
@@ -95,6 +99,22 @@ public class Account {
 
     public void setPreviousAddresses(List<Address> previousAddresses) {
         this.previousAddresses = previousAddresses;
+    }
+
+    public List<Service> getCurrentServices() {
+        return currentServices;
+    }
+
+    public void setCurrentServices(List<Service> currentServices) {
+        this.currentServices = currentServices;
+    }
+
+    public List<Service> getPreviousServices() {
+        return previousServices;
+    }
+
+    public void setPreviousServices(List<Service> previousServices) {
+        this.previousServices = previousServices;
     }
 
     public void saveAccount() {

@@ -46,7 +46,9 @@ public class AccountManager {
             case "updateCurrentAddress":
                 updateCurrentAddress(message, socket);
                 break;
-
+            case "login_social":
+                loginSocial(message, socket);
+                break;
         }
     }
 
@@ -119,6 +121,30 @@ public class AccountManager {
         }
     }
 
+    public static void loginSocial(Message message, WebSocket socket) {
+        Account account = Utils.getGson().fromJson(message.getPayload(), Account.class);
+        account.setEmail(account.getEmail().toLowerCase());
+
+        if (Objects.nonNull(account)) {
+            if (!emailExists(account.getEmail().toLowerCase())) {
+                String uniqueId = new ObjectId().toString();
+
+                Document accountDocument = new Document("_id", uniqueId);
+                accountDocument.put("data", Utils.getGson().toJson(account));
+                MongoConnection.getDatabase().getCollection("accounts").insertOne(accountDocument);
+            }
+            account = findAccount(account.getEmail().toLowerCase());
+
+            message.setType("account:retrieve");
+            message.setPayload(Utils.getGson().toJson(account));
+            message.sendMessage(socket);
+
+            message.setType("account:login_success");
+            message.setPayload("{}");
+            message.sendMessage(socket);
+        }
+    }
+
     public static void retrieve(Message message, WebSocket socket) {
         Account account = null;
         Document accountDocument = MongoConnection.getDatabase().getCollection("accounts")
@@ -141,9 +167,9 @@ public class AccountManager {
             account.setPassword(BCrypt.withDefaults().hashToString(12, password.getNewPassword().toCharArray()));
             account.saveAccount();
 
-            message.setType("account:updatePassword_success");
+            message.setType("account:updatepassword_success");
         } else {
-            message.setType("account:updatePassword_failed");
+            message.setType("account:updatepassword_failed");
         }
 
         message.setPayload("{}");
@@ -164,9 +190,9 @@ public class AccountManager {
             account.setPhone(details.getPhone());
             account.saveAccount();
 
-            message.setType("account:updateDetails_success");
+            message.setType("account:updatedetails_success");
         } else {
-            message.setType("account:updateDetails_failed");
+            message.setType("account:updatedetails_failed");
         }
 
         message.setPayload("{}");
@@ -183,9 +209,9 @@ public class AccountManager {
             } else {
                 account.setCurrentAddress(newAddress);
             }
-            message.setType("account:addAddress_success");
+            message.setType("account:addaddress_success");
         } else {
-            message.setType("account:addAddress_failed");
+            message.setType("account:addaddress_failed");
         }
 
         message.setPayload("{}");
@@ -203,9 +229,9 @@ public class AccountManager {
                     account.getPreviousAddresses().add(i, addresses.getCurrentAddress());
             }
 
-            message.setType("account:updateCurrentAddress_success");
+            message.setType("account:updatecurrentaddress_success");
         } else {
-            message.setType("account:updateCurrentAddress_failed");
+            message.setType("account:updatecurrentaddress_failed");
         }
     }
 

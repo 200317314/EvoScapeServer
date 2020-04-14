@@ -2,6 +2,7 @@ package core.connection;
 
 
 import core.managers.AccountManager;
+import core.managers.ServiceManager;
 import core.utils.Utils;
 import org.java_websocket.WebSocket;
 import org.java_websocket.handshake.ClientHandshake;
@@ -68,6 +69,9 @@ public class Server extends WebSocketServer {
                     break;
                 case "account":
                     AccountManager.handle(message, webSocket);
+                    break;
+                case "services":
+                    ServiceManager.handle(message, webSocket);
                     break;
             }
         }
